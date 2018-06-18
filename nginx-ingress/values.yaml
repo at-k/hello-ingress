@@ -1,0 +1,7 @@
+
+controller:
+  name: controller
+  ## Override NGINX template
+  customTemplate:
+    configMapName: nginx-custom-tmpl
+    configMapKey: nginx.tmpl
